@@ -24,7 +24,7 @@ fun print4thHighestElement(number: IntArray) {
             fourthHighest = secondNum
             secondNum = thirdNum
             thirdNum = i
-        }else if(fourthHighest<i){
+        } else if(fourthHighest<i){
             fourthHighest = i
         }
     }
