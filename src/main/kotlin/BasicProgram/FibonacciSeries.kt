@@ -6,7 +6,7 @@ package BasicProgram
     else fibonacci(n - 1) + fibonacci(n - 2)
 }
 
-fun main() {
+fun BasicProgram.main() {
     val count = 10 // Number of Fibonacci numbers
     val fibonacciSeries = List(count) {
         println(it)

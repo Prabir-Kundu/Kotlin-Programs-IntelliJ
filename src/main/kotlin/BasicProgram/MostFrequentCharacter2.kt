@@ -1,3 +1,8 @@
+package BasicProgram
+
+import kotlin.collections.iterator
+import kotlin.text.iterator
+
 fun main() {
     print("Enter a string: ")
     val input = readLine() ?: ""
